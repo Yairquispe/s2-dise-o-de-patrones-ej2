@@ -1,0 +1,13 @@
+public class factura {
+
+    private double monto;
+
+    public factura(double monto) {
+        this.monto = monto;
+    }
+
+    public double getMonto() {
+        return monto;
+    }
+
+}
