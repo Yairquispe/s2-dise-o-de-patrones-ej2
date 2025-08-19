@@ -1,0 +1,4 @@
+public interface impuesto {
+    double calcular(factura factura);
+    
+}
