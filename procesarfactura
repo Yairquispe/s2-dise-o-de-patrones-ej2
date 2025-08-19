@@ -1,0 +1,5 @@
+public class procesarfactura {
+    public double procesar(factura factura, impuesto impuesto){
+        return impuesto.calcular(factura); 
+    }
+}
