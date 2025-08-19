@@ -1,0 +1,14 @@
+public class ejecutor {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        factura boleta = new factura(100);
+        procesarfactura procesador = new procesarfactura(); 
+        System.out.println("IVA"+procesador.procesar(boleta,new IVA()));
+        System.out.println("IVA"+procesador.procesar(boleta,new IGV()));
+    }
+    
+}
