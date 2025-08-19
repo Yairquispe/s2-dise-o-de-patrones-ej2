@@ -1,0 +1,8 @@
+public class IVA implements impuesto {
+
+    @Override
+    public double calcular(factura factura) {
+        return factura.getMonto() * 0.21;
+    }
+
+}
